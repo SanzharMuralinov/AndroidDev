@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".grudgym">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Жим штанги лежа"
+                android:textAlignment="center"
+                android:textColor="#F3070707"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/g1g" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Базовое и основное упражнение. Как правило, его делают первым, но доведение до ума отстающих зон может подразумевать замену горизонтального жима на другие позиции в комплексе. Только в пауэрлифтинге жим лежа незаменим. При обычной работе над грудными мышцами вы вполне можете исключить его из программы. С помощью этого движения развивается мускулатура и основательно увеличивается сила."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Жим гантелей на горизонтальной скамье"
+                android:textAlignment="center"
+                android:textColor="#F3070707"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/g2g" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Аналогичное предыдущему упражнение. Разница в том, что в этом случае подключаются мышцы-стабилизаторы. При жиме штанги снаряд более устойчив, поэтому в дополнительной стабилизации нет нужды. Кроме того, жим гантелей позволяет сильней растянуть грудные мышцы. Если гриф упирается в грудину и не даёт добиться необходимой амплитуды, то пара снарядов снимает это ограничение, позволяя опустить руки чуть ниже."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Жим штанги лёжа под углом"
+                android:textAlignment="center"
+                android:textColor="#F3070707"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/g3g" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Есть два варианта этого упражнения – жим на скамье с уклоном вверх и вниз. В первом случае основная нагрузка ложится на верх груди и передние пучки дельт. При отрицательном наклоне развивается нижняя зона грудной мускулатуры. Угол наклона – 30-45 градусов в ту или другую сторону. Больший угол не рекомендуется, поскольку уходит нагрузка из целевой мышечной группы на дельты."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.Жим гантелей на наклонной скамье"
+                android:textAlignment="center"
+                android:textColor="#F3070707"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/g4g" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Упражнения на грудные мышцы в тренажерном зале с использованием гантелей подразумевают аналогичную технику. Как и в случае со штангой, можно и нужно тренироваться на скамье с положительным и отрицательным уклоном.  Рекомендуется чередовать углы в рамках одного занятия. Например, сначала сделать жим штанги лежа, а затем — гантелей на наклонной скамье. Таким образом вы проработаете всю большую грудную мышцу."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.Отжимания на брусьях"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#F3070707"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/g5g" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Одно из самых важных движений, которое можно выполнять не только в зале, но и дома. Отжимаются на брусьях как с собственным весом, так и с дополнительном отягощением. Расстояние между опорами должно быть чуть шире плеч. Большее расстояние делает упражнение травмоопасным, а меньшее смещает акцент на трицепсы."
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

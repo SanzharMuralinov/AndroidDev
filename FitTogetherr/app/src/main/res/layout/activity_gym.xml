@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E2E4"
+    tools:context=".gym">
+
+    <Button
+        android:id="@+id/grudgym"
+        android:layout_width="366dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="554dp"
+        android:background="@drawable/fields"
+        android:backgroundTint="#3F8CDD"
+        android:text="Грудь"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bicgym"
+        android:layout_width="366dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="430dp"
+        android:background="@drawable/fields"
+        android:backgroundTint="#3F8CDD"
+        android:text="Бицепс"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tricgym"
+        android:layout_width="366dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="309dp"
+        android:background="@drawable/fields"
+        android:backgroundTint="#3F8CDD"
+        android:text="Трицепс"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/spinagym"
+        android:layout_width="366dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="516dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="182dp"
+        android:background="@drawable/fields"
+        android:backgroundTint="#3F8CDD"
+        android:text="спина + плечи"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/nogigym"
+        android:layout_width="366dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="631dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="67dp"
+        android:background="@drawable/fields"
+        android:backgroundTint="#3F8CDD"
+        android:text="ноги"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="402dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="554dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/grud" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="172dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="429dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/biceps2" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="313dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="309dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/triceps" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="286dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="397dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="182dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spina" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="319dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="529dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nogi3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

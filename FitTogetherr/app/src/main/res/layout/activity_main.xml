@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ToGym"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAA3A2"
+    android:backgroundTint="#FCFCFC"
+    tools:context=".fields.MainActivity">
+
+    <Button
+        android:id="@+id/act2"
+        android:layout_width="443dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginBottom="485dp"
+        android:accessibilityLiveRegion="polite"
+        android:background="#673AB7"
+        android:backgroundTint="#3F8CDD"
+        android:backgroundTintMode="src_in"
+        android:fontFamily="sans-serif-black"
+        android:lineSpacingExtra="12sp"
+        android:shadowColor="#9C27B0"
+        android:text="Упражнения в зале"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/act"
+        android:layout_width="437dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#3F8CDD"
+        android:backgroundTintMode="src_in"
+        android:fontFamily="sans-serif-medium"
+        android:text="Упражнения дома"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.346"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="227dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="483dp"
+        android:src="@drawable/zal1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="593dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="227dp"
+        android:layout_marginBottom="216dp"
+        android:src="@drawable/zal2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="705dp"
+        android:layout_height="434dp"
+        android:layout_marginTop="451dp"
+        android:src="@drawable/zal3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

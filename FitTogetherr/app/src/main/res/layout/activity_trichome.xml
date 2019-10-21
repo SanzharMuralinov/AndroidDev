@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trichome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.ФРАНЦУЗСКИЙ ЖИМ С ГАНТЕЛЯМИ"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/t1h" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Поставьте ступни на ширине бедер, и слегка согните ноги, при этом корпус должен оставаться прямым. Используйте гантели или грузики и выпрямите руки, при этом гантели должны смотреть в потолок. Руки следует медленно сгибать в локтях, а затем возвращать в исходное положение. Подробнее: http://gym-people.ru/massa/programms/doma/kak_nakachat/tritseps.html"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.ОТЖИМАНИЯ ОТ СКАМЬИ"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/t2h" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Чтобы сделать обратное отжимание необходимо использовать любую доступную платформу вроде скамьи или стула. Присядьте и упритесь в ее края, прижимая руки к туловищу. Приподнявшись, следует сдвинуть корпус вперед и медленно опускаться, насколько это возможно. Усложнить упражнение можно закинув ноги на вторую скамью как показано на картинке, а еще положив на бедра гантелю или иной груз. "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.УСЕЧЕННЫЕ ОТЖИМАНИЯ"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/t3h" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Отжимания с узкой постановкой рук. Вам необходимо лечь на пол и упереться руками в пол. Локти должны быть согнуты, а руки прижаты к туловищу. Основная нагрузка приходится на трицепс, поэтому такое упражнение не всегда получается с первого раза, особенно если ранее вы не качали мышцы рук. "
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
